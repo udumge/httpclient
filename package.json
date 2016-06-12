@@ -1,0 +1,15 @@
+{
+  "name": "httpclient",
+  "version": "1.0.0",
+  "description": "HTTP Client sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "client"
+  ],
+  "author": "Suguru FUJISAWA",
+  "license": "ISC"
+}
