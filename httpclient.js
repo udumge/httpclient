@@ -2,7 +2,8 @@
 var http = require("http");
 var util = require("util");
 
-http.get("http://www.google.co.jp/", function(res){
+
+http.get(process.argv[2], function(res){
   //console.log("Got response:"+ util.inspect(res,{showHidden: true, depth : null,colors: true}));
   console.log("Headers\r\n" + util.inspect(res.headers,{showHidden: true, depth : null,colors: true}));
   console.log("StatusCode\r\n" + res.statusCode);
